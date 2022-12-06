@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+html{
+  font-size: 62.5%;
+  body{
+    font-size: 1.6rem;
+    img{
+      max-width: 100%;
+    }
+  }
+  @include responsive(1100px){
+    font-size: 55%;
+  }
+}
